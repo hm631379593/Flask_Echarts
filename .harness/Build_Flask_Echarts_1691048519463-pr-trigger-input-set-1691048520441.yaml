@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Flask_Echarts_1691048519463-pr-trigger-input-set
+  identifier: Build_Flask_Echarts_1691048519463prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Flask_Echarts_1691048519463
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
