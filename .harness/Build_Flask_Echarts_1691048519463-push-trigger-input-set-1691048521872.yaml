@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Flask_Echarts_1691048519463-push-trigger-input-set
+  identifier: Build_Flask_Echarts_1691048519463pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Flask_Echarts_1691048519463
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
